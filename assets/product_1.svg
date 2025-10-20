@@ -1,0 +1,24 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f0f10"/>
+      <stop offset="1" stop-color="#232426"/>
+    </linearGradient>
+    <style>
+      .silver{fill:#cfd3d6}
+      .gold{fill:#c8a96a}
+      .text{font-family: 'Cinzel', 'Times New Roman', serif;}
+    </style>
+  </defs>
+  <rect width="800" height="1000" fill="url(#g)"/>
+  <!-- simple watch silhouette -->
+  <g transform="translate(400,500)">
+    <circle cx="0" cy="0" r="230" fill="none" stroke="#cfd3d6" stroke-width="10"/>
+    <line x1="0" y1="0" x2="-70" y2="-110" stroke="#cfd3d6" stroke-width="10" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="140" y2="-60" stroke="#cfd3d6" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="10" fill="#cfd3d6"/>
+  </g>
+  <text x="50%" y="120" dominant-baseline="middle" text-anchor="middle" font-size="72" class="text silver">FIGO</text>
+  <text x="50%" y="200" dominant-baseline="middle" text-anchor="middle" font-size="42" class="text gold">MILANO</text>
+</svg>
