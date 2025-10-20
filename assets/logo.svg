@@ -1,5 +1,4 @@
-
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="230" viewBox="0 0 640 230">
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="230" viewBox="0 0 700 230">
   <defs>
     <style>
       .silver{fill:#cfd3d6}
@@ -7,12 +6,19 @@
       .txt{font-family:'Cinzel','Times New Roman',serif;font-weight:600}
     </style>
   </defs>
-  <text x="20" y="135" font-size="128" class="txt silver">FIG</text>
-  <g transform="translate(220,0)">
-    <circle cx="90" cy="96" r="45" fill="none" stroke="#cfd3d6" stroke-width="8"/>
-    <line x1="60" y1="96" x2="72" y2="60" stroke="#cfd3d6" stroke-width="6" stroke-linecap="round"/>
-    <line x1="60" y1="96" x2="92" y2="80" stroke="#cfd3d6" stroke-width="4" stroke-linecap="round"/>
-    <circle cx="90" cy="96" r="6" fill="#cfd3d6"/>
+
+  <!-- FIG -->
+  <text x="20" y="155" font-size="128" class="txt silver">FIG</text>
+
+  <!-- O (שעון) נוגע לגמרי ב-G -->
+  <g transform="translate(392,63)">
+    <circle cx="90" cy="76" r="45" fill="none" stroke="#cfd3d6" stroke-width="8"/>
+    <!-- מחוגים 10:10 -->
+    <line x1="90" y1="76" x2="68" y2="46" stroke="#cfd3d6" stroke-width="6" stroke-linecap="round"/>
+    <line x1="90" y1="76" x2="110" y2="52" stroke="#cfd3d6" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="90" cy="76" r="6" fill="#cfd3d6"/>
   </g>
-  <text x="26" y="235" font-size="74" class="txt gold" letter-spacing="8">MILANO</text>
+
+  <!-- MILANO -->
+  <text x="26" y="220" font-size="74" class="txt gold" letter-spacing="8">MILANO</text>
 </svg>
