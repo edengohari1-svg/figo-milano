@@ -1,0 +1,18 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="230" viewBox="0 0 640 230">
+  <defs>
+    <style>
+      .silver{fill:#cfd3d6}
+      .gold{fill:#c8a96a}
+      .txt{font-family:'Cinzel','Times New Roman',serif;font-weight:600}
+    </style>
+  </defs>
+  <text x="20" y="120" font-size="128" class="txt silver">FIG</text>
+  <g transform="translate(410,18)">
+    <circle cx="90" cy="96" r="72" fill="none" stroke="#cfd3d6" stroke-width="8"/>
+    <line x1="90" y1="96" x2="64" y2="60" stroke="#cfd3d6" stroke-width="6" stroke-linecap="round"/>
+    <line x1="90" y1="96" x2="120" y2="74" stroke="#cfd3d6" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="90" cy="96" r="6" fill="#cfd3d6"/>
+  </g>
+  <text x="26" y="205" font-size="74" class="txt gold" letter-spacing="8">MILANO</text>
+</svg>

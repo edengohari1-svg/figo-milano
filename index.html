@@ -1,0 +1,105 @@
+
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FIGO MILANO — Luxury Watches</title>
+  <meta name="description" content="FIGO MILANO — Quiet luxury timepieces. Born in Milano. Launching soon.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="theme-dark">
+  <header class="nav">
+    <div class="left">
+      <img src="assets/logo.svg" alt="FIGO MILANO" class="logo">
+    </div>
+    <nav class="right">
+      <a href="#collections">Collections</a>
+      <a href="#about">About</a>
+      <a href="#subscribe" class="cta">Join Launch</a>
+      <div class="switcher">
+        <button id="darkBtn" aria-pressed="true">Dark Luxury</button>
+        <button id="lightBtn" aria-pressed="false">Bright Luxury</button>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <picture>
+      <source srcset="assets/banner_light.svg" media="(prefers-color-scheme: light)">
+      <img src="assets/banner_dark.svg" alt="Luxury watch banner">
+    </picture>
+    <div class="hero-copy">
+      <h1>Precision in Time</h1>
+      <p>Quiet Italian elegance. Balanced lines. Meticulous detail.</p>
+      <div class="cta-row">
+        <a class="btn gold" href="#collections">View Collections</a>
+        <a class="btn ghost" href="#about">Our Story</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="collections" class="collections">
+    <h2>Featured Collections</h2>
+    <p class="sub">Opening lineup — visual mockups. Final product photos will replace these upon sampling.</p>
+    <div class="grid">
+      <a class="card" href="#"><img src="assets/product_1.svg" alt=""><h3>Classic Leather — Nero</h3></a>
+      <a class="card" href="#"><img src="assets/product_2.svg" alt=""><h3>Gold Accent — Notte</h3></a>
+      <a class="card" href="#"><img src="assets/product_3.svg" alt=""><h3>Minimal Silver — Bianco</h3></a>
+      <a class="card" href="#"><img src="assets/product_4.svg" alt=""><h3>Steel Elegant — Graphite</h3></a>
+    </div>
+    <div class="center"><a class="btn ghost" href="#subscribe">Get launch access</a></div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="wrap">
+      <div class="copy">
+        <h2>About FIGO MILANO</h2>
+        <p>Born in Milano, crafted for quiet luxury. We design timepieces with Italian sensibility — balanced typography, silver–gold harmony, and a discreet emblem where the letter “O” reflects a watch set to 10:10.</p>
+        <ul>
+          <li>Japanese / Swiss movements</li>
+          <li>Scratch-resistant crystal</li>
+          <li>Premium leather & steel</li>
+          <li>Signature packaging with gold deboss</li>
+        </ul>
+      </div>
+      <div class="media">
+        <img src="assets/product_2.svg" alt="FIGO MILANO model">
+      </div>
+    </div>
+  </section>
+
+  <section id="subscribe" class="subscribe">
+    <div class="box">
+      <h2>Launching Soon</h2>
+      <p>Join the early list for priority access and a launch gift.</p>
+      <form action="https://formspree.io/f/xayzform" method="POST">
+        <input type="email" name="email" placeholder="Your email" required>
+        <button type="submit">Join the list</button>
+      </form>
+      <small>No spam. Only launch updates.</small>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="cols">
+      <div class="col">
+        <img src="assets/logo.svg" alt="FIGO MILANO" class="foot-logo">
+      </div>
+      <div class="col">
+        <h4>Contact</h4>
+        <p><a href="mailto:studio@figomilano.com">studio@figomilano.com</a></p>
+      </div>
+      <div class="col">
+        <h4>Follow</h4>
+        <p><a href="#">Instagram</a> · <a href="#">TikTok</a></p>
+      </div>
+    </div>
+    <div class="copy">© FIGO MILANO. All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
