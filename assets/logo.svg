@@ -14,5 +14,5 @@
     <line x1="90" y1="96" x2="120" y2="74" stroke="#cfd3d6" stroke-width="4" stroke-linecap="round"/>
     <circle cx="90" cy="96" r="6" fill="#cfd3d6"/>
   </g>
-  <text x="26" y="205" font-size="74" class="txt gold" letter-spacing="8">MILANO</text>
+  <text x="26" y="150" font-size="74" class="txt gold" letter-spacing="8">MILANO</text>
 </svg>
